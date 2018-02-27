@@ -9,5 +9,5 @@
   2. However, why do focal loss can achive so much improvement?  Here we show some evaluation images and then we may find the answer. Focal loss do not detect the low percentage object(about 0.5~0.8), this may have a good precision but bad recall. But the core viewpoint of the paper is focus on the hard examples while ignore the easy examples. I don't know the reason. Can anybody tell me the reason???
   
   ![Eval image result comp](https://github.com/ailias/Focal-Loss-implement-on-Tensorflow/blob/master/img_res.png)
-## Conclusion: In my opinion, maybe Focal loss can have a better precision(MAP) but worse recall. 
-## Application: If you just want to have a better MAP, the focal loss is a good choice.
+\textbf{Conclusion: In my opinion, maybe Focal loss can have a better precision(MAP) but worse recall.}
+\textbf{Application: If you just want to have a better MAP, the focal loss is a good choice.}
